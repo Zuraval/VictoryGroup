@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'icon';
+  src:  url('../fonts/icon.eot?ew8wtm');
+  src:  url('../fonts/icon.eot?ew8wtm#iefix') format('embedded-opentype'),
+    url('../fonts/icon.ttf?ew8wtm') format('truetype'),
+    url('../fonts/icon.woff?ew8wtm') format('woff'),
+    url('../fonts/icon.svg?ew8wtm#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"], [class*=" _icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-plus:before {
+  content: "\e900";
+  color: #e21f4d;
+}
+._icon-angle-left:before {
+  content: "\e901";
+  color: #e21f4d;
+}
+._icon-angle-right:before {
+  content: "\e902";
+  color: #e21f4d;
+}
+._icon-Clock:before {
+  content: "\e903";
+  color: #e21f4d;
+}
+._icon-logo .path1:before {
+  content: "\e904";
+  color: rgb(63, 63, 63);
+}
+._icon-logo .path2:before {
+  content: "\e905";
+  margin-left: -5.6064453125em;
+  color: rgb(226, 31, 77);
+}
+._icon-NavFooter:before {
+  content: "\e906";
+  color: #e21f4d;
+}
+._icon-PhoneFooter:before {
+  content: "\e907";
+  color: #e21f4d;
+}
+._icon-RedStar:before {
+  content: "\e908";
+  color: #e21f4d;
+}
+._icon-Search:before {
+  content: "\e909";
+  color: #8f8f8f;
+}
+._icon-user:before {
+  content: "\e90a";
+  color: #e21f4d;
+}
+._icon-WhatsApp:before {
+  content: "\e90b";
+  color: #e21f4d;
+}
+._icon-YellowStar:before {
+  content: "\e90c";
+  color: #dfb646;
+}
